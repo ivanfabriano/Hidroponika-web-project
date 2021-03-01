@@ -1,13 +1,21 @@
 <template>
   <v-app id="app">
+    <nav-bar/>
     <router-view></router-view>
   </v-app>
 </template>
-
+<script>
+import NavBar from "@/components/NavBar.vue"
+export default {
+  components:{
+    NavBar,
+  }
+}
+</script>
 <style>
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap");
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

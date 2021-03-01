@@ -4,6 +4,11 @@
       <v-col cols="12" sm="12" md="6" class="header">
         <h1>Hidroponika</h1>
         <p>Make Our Smart Hidroponic Garden</p>
+        <div class="my-2">
+          <v-btn rounded color="warning" dark>
+            See More
+          </v-btn>
+        </div>
       </v-col>
       <v-col md="6" class="description">
         <v-carousel
@@ -41,12 +46,8 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap");
 .main {
-  font-family: "Montserrat", sans-serif;
   margin: 0;
-}
-.main-row {
 }
 .header {
   margin-top: 15vmax;
@@ -67,8 +68,6 @@ export default {
   margin-top: 15vmax;
   text-align: center;
   justify-content: center;
-}
-.carousel {
 }
 .display-3 {
   color: black;

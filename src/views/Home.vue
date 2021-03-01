@@ -7,8 +7,8 @@
           <div class="first-caption">
             <h2>Make your hidroponic garden undercontrol</h2>
             <p>
-              Not have a lot of time to control your hidroponic garden? let’s
-              try us, you can monitoring your garden easily and everywhere
+              Don't have much time to control your hidroponic garden directly?,
+              Let's try us, you can monitoring your garden easily and anywhere.
             </p>
           </div>
         </v-row>
@@ -30,24 +30,26 @@
           <div class="third-caption">
             <h2>Yes, we are smart hidroponic garden systems</h2>
             <p>
-              Not have a lot of time to control your hidroponic garden? let’s
-              try us, you can monitoring your garden easily and everywhere
+              be curious? scroll down for more detailed information.
             </p>
           </div>
         </v-row>
       </v-container>
     </div>
+    <feature-content/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import HeaderContent from "@/components/HeaderContent.vue";
+import FeatureContent from "@/components/FeatureContent.vue";
 
 export default {
   name: "Home",
   components: {
     HeaderContent,
+    FeatureContent,
   },
 };
 </script>
@@ -89,11 +91,19 @@ export default {
   margin-top: 30px;
   font-weight: 600;
 }
+.third-row {
+  justify-content: center;
+}
+.third-row .third-caption {
+  margin-bottom: 30px;
+  width: 35rem;
+  height: auto;
+}
 .third-caption > h2 {
   font-weight: 600;
   font-size: 2rem;
   margin-bottom: 7px;
-  margin-top:80px;
+  margin-top: 200px;
 }
 .third-caption > p {
   font-weight: 300;
