@@ -3,7 +3,7 @@
     <v-row no-gutters class="main-row">
       <v-col cols="12" sm="12" md="6" class="header">
         <h1>Hidroponika</h1>
-        <p>Make Our Smart Hidroponic Garden</p>
+        <p>Make Our Smart Hydroponic Garden</p>
         <div class="my-2">
           <v-btn rounded color="warning" dark>
             See More
@@ -77,10 +77,16 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
+  .header {
+    margin-top: 8vmax;
+  }
   .header > h1 {
     color: #fdffff;
     font-weight: 600;
     font-size: 2em;
+  }
+  .description{
+      margin-top:8vmax;
   }
 }
 </style>

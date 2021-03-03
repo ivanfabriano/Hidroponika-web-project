@@ -28,7 +28,7 @@
           <div class="mini-container2">
             <h2>Data History Collecting</h2>
             <p>
-              Hydroponics will store data history every day so that it can be
+              Hidroponika will store data history every day so that it can be
               used for analysis and improve your strategy for better future.
             </p>
             <div class="my-2">

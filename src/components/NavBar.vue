@@ -3,7 +3,6 @@
     color="transparent"
     elevate-on-scroll
     scroll-target="#scrolling-techniques-7"
-    fixed
     rounded-pill
   >
   

@@ -5,9 +5,9 @@
       <v-container fluid class="content-container">
         <v-row class="first-row">
           <div class="first-caption">
-            <h2>Make your hidroponic garden undercontrol</h2>
+            <h2>Make your hydroponic garden undercontrol</h2>
             <p>
-              Don't have much time to control your hidroponic garden directly?,
+              Don't have much time to control your hydroponic garden directly?,
               Let's try us, you can monitoring your garden easily and anywhere.
             </p>
           </div>
@@ -28,7 +28,7 @@
         </v-row>
         <v-row class="third-row">
           <div class="third-caption">
-            <h2>Yes, we are smart hidroponic garden systems</h2>
+            <h2>Yes, we are smart hydroponic garden systems</h2>
             <p>
               be curious? scroll down for more detailed information.
             </p>
@@ -37,6 +37,8 @@
       </v-container>
     </div>
     <feature-content/>
+    <div></div>
+    <footer-bar/>
   </div>
 </template>
 
@@ -44,12 +46,14 @@
 // @ is an alias to /src
 import HeaderContent from "@/components/HeaderContent.vue";
 import FeatureContent from "@/components/FeatureContent.vue";
+import FooterBar from "@/components/FooterBar.vue";
 
 export default {
   name: "Home",
   components: {
     HeaderContent,
     FeatureContent,
+    FooterBar,
   },
 };
 </script>
@@ -109,8 +113,14 @@ export default {
   font-weight: 300;
 }
 @media screen and (max-width: 600px) {
+  #app{
+    background-size: 100vmax 50vmax;
+  }
   .features-col {
     margin: 10px 10px;
+  }
+  .content{
+    margin-top: 10rem
   }
 }
 </style>
